@@ -6,7 +6,6 @@
 # for continous variable sort and then find split condition
 # for each node calc var_gain by deciding on the split condition
 
-#..........................................................
 import csv
 train_dat = open('train.csv',newline='')
 readfile = csv.reader(train_dat)
