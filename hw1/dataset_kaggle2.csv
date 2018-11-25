@@ -1,0 +1,11 @@
+fixed acidity,real valued
+volatile acidity,real valued
+citric acid,real valued
+residual sugar,real valued
+chlorides,real valued
+free sulfur dioxide,integer valued
+total sulfur dioxide,integer valued
+density,real valued
+pH,real valued
+sulphates,real valued
+alcohol,real valued

@@ -1,0 +1,12 @@
+
+--> AS THERE ARE TWO TYPES OF CLASIFICATIONS (0,1) AND (-1,1), WE HAVE MADE 2 MAIN.PY FILES AND 2 UTILS.PY FILES CORRESPONDING TO EACH CLASSIFICATION
+
+IMPORTANT--> NOTE THAT THE INDEX OF TEST AND TRAIN WERE MANUALLY REMOVED FROM THE FILE BEFORE TRAINING ON IT, AS IT LED TO OVERFLOW ERROR, SO PLESE DO THAT BEFORE HAND 
+
+--> EXAMPLE COMMAND FOR EXECUTING FILE 1 (0,1) CLASSIFICATION KAGGLE_DATASET1
+
+python3 main1.py --loss logistic_loss --regularizer L2 --batch-size 100 --train-data train.csv --test-data test.csv --loss-weight 1
+
+--> EXAMPLE COMMAND FOR EXECUTING FILE 2 (-1,1) CLASSIFICATION KAGGLE_DATASET2
+
+python3 main2.py --loss logistic_loss --regularizer L2 --batch-size 100 --train-data train.csv --test-data test.csv --loss-weight 1
